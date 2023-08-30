@@ -1,0 +1,575 @@
+/*fonts link start*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Sans:wght@400;700&family=Roboto&display=swap');
+
+@font-face {
+    src: url(../fonts/Roboto/roboto-Bold.ttf);
+    font-family:roboto-Bold.ttf;
+}
+@font-face {
+    src: url(../fonts/Roboto/roboto-Medium.ttf);
+    font-family:roboto-Medium.ttf;
+}
+@font-face {
+    src: url(../fonts/Roboto/roboto-Regular.ttf);
+    font-family:roboto-Regular.ttf;
+}
+
+/*fonts link end*/
+
+/*body start*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#999999;
+}
+
+/*body end*/
+
+/*header start*/
+
+.c_nav{
+    background-color:none;
+}
+.np_a{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+}
+
+
+.home{
+    color: #333333 !important;
+}
+.memu ul li a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    transition: .3s;
+    padding: 0 20px !important;
+
+}
+.memu ul li a:hover{
+    transform: scale(1.2);
+    color: #333333 !important;
+}
+
+.s_icon{
+    background-color: none;
+}
+
+.btn_src{
+    color: black;
+    background: none;
+    border: none;
+    transition: .3s;
+}
+.btn_src:hover{
+    transform: scale(1.2);
+    background-color: #333333 !important;
+}
+
+/*header end*/
+/*slaider start*/
+.slaider{
+    background-image: url(../img/Nipro-Agency.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.s_item{
+    margin: 200px 0 200px;
+    color: #fff;
+}
+.s_h1{
+    font-family: 'Lato', sans-serif;
+    font-size:60px;
+    font-weight: 700;
+}
+.s_p{
+    padding: 40px 0 50px;
+    line-height: 30px;
+}
+.sl_btn{
+    background-color: #fff;
+    color: #333333;
+    border-radius: 0%;
+}
+.s_btn{
+    background: none;
+    border: none; 
+    transition: .3s;  
+}
+.s_btn:hover{
+    transform: scale(1.2);
+}
+/*slaider end*/
+
+/*searvice start*/
+.searvice{}
+.c_title{}
+.c_pipe{
+    width: 2px;
+    height: 50px;
+    background-color: #333333;
+}
+.srv_h1{
+    color: #333333;
+    padding: 20px 0 30px;
+    text-transform: uppercase;
+}
+.srv_p{
+    line-height: 30px;
+
+}
+.srv_item{
+    margin-top: 80px;
+    border: 1px solid #d9d3d3;
+    padding: 55px 15px 30px;
+}
+.srv_icon{
+    margin: -80px auto 0;
+    width: 70px;
+    height: 60px;
+    background-color: white;
+}
+.srv_icon i{
+    font-size: 60px;
+    transition: .3s; 
+}
+.srv_item:hover{
+    border: 1px solid #333333;
+}
+.srv_item:hover i{
+    transform: scale(1.2);
+    color: #333333;
+}
+.srv_h2{
+    padding: 30px 0 15px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+}
+.srv_pipe2{
+    margin: 0 auto;
+    width: 55px;
+    height: 2px;
+    background-color:#999999;
+    transition:.3s;
+}
+.srv_item:hover .srv_pipe2{
+    transform: scale(1.4);
+    color: #333333;
+}
+.srv_p2{
+    padding: 15px 0 35px;
+}
+.more_btn{
+    font-size: 18px;
+    font-weight: 500;
+    color: #999999;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:.3s;
+
+}
+.more_btn:hover{
+    transform: scale(1.5);
+    color: #333333;
+    
+}
+/*searvice end*/
+
+/*about start*/
+.about{
+    margin-top: 100px;
+}
+.ab_img{}
+.ab_img img{
+    width: 100%;
+}
+.ab_text{}
+.ab_h1{
+    font-size: 30px;
+    color: #333333;
+
+}
+.ab_p1{
+    padding: 35px 0;
+    line-height: 30px
+}
+.ab_p2{
+    line-height: 30px
+}
+.ab_btn{
+    margin-top: 40px;
+    background-color:none;
+    border: 1px solid #333333;
+    border-radius: 0;
+}
+/*about end*/
+/*recent_work*/
+.recent_work{
+    margin-top: 100px;
+    background-color: #e3e0e0;
+    padding-bottom: 100px;
+}
+.nav_tab{}
+.nav_tab ul{}
+.nav_tab ul li{
+    padding: 0 13px;
+}
+.nav_tab ul li a{
+    color: #999999;
+    transition: .33s;
+}
+.nav_tab ul li a:hover{
+    transform: scale(1.2);
+    color: #333333;
+}
+
+/*overlay*/
+.work_img{
+    text-align: center;
+	position: relative;
+	width: 100%;
+    padding: 20px 0;
+}
+.work_img img{
+    width: 100%;
+	height: auto;
+}
+.work_title{
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0;
+	transition: .4s;
+}
+.work_title:hover{
+    opacity: .4;
+}
+.work_title i{
+    font-size: 50px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+	color: white;
+	text-align: center;
+}
+.work_title h2{
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100%;
+	color: #000 !important;
+	text-align: center;
+    background-color: #fff;
+}
+.work_title h2 p{
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100%;
+	color: #000 !important;
+	text-align: center;
+    background-color: #fff;
+}
+
+/*chose nipro start*/
+.ch_item{
+    padding:35px 0;
+}
+.ch_item i{
+    font-size: 48px;
+    transition: .33s;
+}
+.ch_item:hover i{
+    color: #333333;
+}
+.cn_h2{
+    font-size: 18px;
+    padding: 5px 0 0 20px;
+    float: right;
+    font-family: lato-bold;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.cn_p{
+    padding: 30px 0;
+}
+.nc_brd{
+    margin-right: 50px;
+}
+.nc_brd{
+border-bottom: 1px solid #999999;
+
+}
+.ch_item:hover .nc_brd{
+    border-bottom-color: #333333;
+}
+
+/*chose nipro end*/
+
+.employe{
+    background-image: url(../img/embg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.em_img{
+    margin: 100px 0;
+    background-color: #fff;
+}
+.em_h2{
+    margin-top: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: #333333;
+}
+.em_p{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+/*overlay*/
+.em_img{
+	position: relative;
+}
+.em_img img{
+    width: 100%;
+	height: auto;
+}
+
+.em_hover{
+    position: absolute;
+	top: 20%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition:.4s ease;
+}
+.em_hover:hover{
+    opacity: 1;
+}
+.em_hover ul{
+    display:inline-block;
+    background-color:#fff;
+}
+.em_hover ul li{
+    font-size:25px;
+	color: #333333;
+    text-align: center;
+    width: 40px;
+}
+.em_hover ul li i{
+    color: #999999;
+}
+.em_hover ul li i:hover{
+    transform: scale(1.1);
+    color: #333333;
+    border-right: 1px solid #333333;
+    padding: 5px;
+}
+
+
+/*priceing section start*/
+.priceing{
+    padding: 30px;
+}
+.pr_item{
+    margin: 0 20px;
+    border: 1px solid #999999;
+}
+.pr_item:hover{
+    border-color: #333333;
+}
+.pr_item h5{
+    width: 100px;
+    display: table;
+    text-align: center;
+    margin-top: -13px;
+    margin-left: 29px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    background-color: #fff;
+}
+.pr_item h2{
+    color: #333333;
+    padding: 25px 0px 25px 25px; ;
+}
+.pr_item,.pr_h2 spen{
+    color: #999999;
+    font-size: 16px;
+}
+.pr_item ul{
+    margin-left: 20px;
+    line-height: 40px;
+}
+.pr_item ul li{}
+.pr_btn{
+    margin: 30px 30px;;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #999999;
+    border-radius: 0;
+    padding: 12px 0
+}
+.pr_btn:hover{
+    border-color: #333333;
+}
+
+/*priceing section end*/
+
+/*scrol button start*/
+.scrol{
+    margin-bottom: 100px;
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+.contan{
+    margin: 0 15px;
+}
+.contan h2{
+    font-family: lato-regular;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+}
+.scrol_btn{
+    text-align: right;
+}
+.scr_btn{
+    margin: 0 15px;
+    padding: 14px 40px;
+    color: #8e8e8e;
+    border-color: #333333;
+    border-radius: 0;
+}
+
+/*carsol 02 start*/
+.crsl_2{
+    border: 1px solid #333333;
+}
+.info_img{}
+.info_texts{
+    padding: 25px 0;
+}
+.text_h2{
+    font-family: lato-bold;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.text_h3{
+    padding: 20px 0 20px 0;
+    font-family: roboto-regular;
+    font-size: 18px;
+}
+.text_ht{
+    font-family: roboto-regular;
+    font-size: 18px;
+    color: #333333;
+}
+.text_p1{
+    padding-top: 20px;
+}
+.text_p2{
+    padding: 25px 0 25px;
+}
+.into_verti{
+    border: 1px solid #8e8e8e;
+    writing-mode: vertical-lr !important;
+    font-size: 18px;
+}
+.info_vrp{
+}
+
+.btn_p{
+    margin: 18px 12px 100px;
+}
+.btn_n{
+    margin: 112px 0 18px;
+}
+
+/*carsol 02 end*/
+
+
+
+/*footer start*/
+.footer_top{
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+}
+.c_title{}
+.c_title h2{
+}
+.c_title p{
+   
+}
+.f_link{
+    margin: 40px 0 0;
+    font-size: 36px; 
+    background:; 
+}
+.f_link a i{
+    padding: 10px;
+    color:#333333;
+    border: 2px solid #fff;
+    transition: .33s;
+}
+.f_link i:hover{
+    
+    transform: scale(1.1);
+    
+}
+
+footer{
+    margin-top: 100px;
+    border-top: 2px solid #fff;
+}
+.ft_pdn{
+    padding-top: 30px;
+}
+.ft_p{
+    
+}
+.ft_menu{
+    
+}
+.ft_menu ul li{
+    display: inline-block;
+    transition: ;
+}
+.ft_menu ul li a{
+    color: #fff;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+.ft_menu ul li:hover{
+    transform: scale(1.1);
+    color: #999999;
+}
+
+/*footer end*/

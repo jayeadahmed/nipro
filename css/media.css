@@ -1,0 +1,290 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+    /*nave start*/
+    .memu ul li a {
+        padding: 0 !important;
+        float: right;
+}
+    .btn_src {
+        padding: 0 !important;
+        float: right;
+}
+
+  /*slaider start*/
+  .s_item {
+    margin: 0;
+}
+     .s_h1 {
+        font-size: 25px;
+    }
+    .s_p {
+        padding: 15px 0 20px;
+        line-height: 25px;
+    }
+
+    /*service start*/
+    .nav_tab ul li {
+        padding: 0px;
+    }
+
+    .srv_h1 {
+        padding: 15px 0 20px;
+    }
+    .srv_item {
+        margin: 53px 15px 0px;
+    }
+
+        /*about start*/
+    .about {
+        margin-top: 60px;
+        }
+    .ab_h1 {
+        padding-top: 30px;}
+    .ab_p1 {
+        padding: 10px 0 15px;
+            }
+    .ab_btn {
+        margin-top: 30px;}
+
+         /*recent_work*/
+
+    .work_img {
+        padding: 10px 15px;}
+
+    /*chose nipro start*/
+    .ch_item {
+        margin: 0 15px;
+        padding: 20px 0;
+        }
+    .cn_p {
+        padding: 10px 0;
+        }
+    .nc_brd {
+        margin-right: 0px;
+    }
+/*employs start*/
+    .em_img {
+        margin: 10px 0;
+    }
+
+    /*priceing section start*/
+.pr_item {
+    margin:15px;;}
+    .pr_btn {
+        margin: 15px 2px;}
+
+/*scrol button */
+.contan {
+    text-align: center;}
+    .scrol_btn {
+        text-align: center;}
+
+/*footer start*/
+footer {
+    margin-top: 30px;}
+.f_link a i {
+    margin: 10px;}
+
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .s_item {
+        margin:50px 0;
+    }
+        /*nave start*/
+        .memu ul li a {
+            padding: 0 !important;
+            float: right;
+    }
+        .btn_src {
+            padding: 0 !important;
+            float: right;
+    }
+     /*slaider start*/
+     .s_h1 {
+        font-size: 45px;
+    }
+    .s_p {
+        padding: 15px 0 20px;
+        line-height: 25px;
+    }
+    /*service start*/
+    .nav_tab ul li {
+        padding: 0px;
+    }
+
+    .srv_h1 {
+        padding: 15px 0 20px;
+    }
+    .srv_item {
+        margin: 50px 70px 0px;
+        }
+        /*about start*/
+    .about {
+        margin-top: 70px;
+    }
+    .ab_h1 {
+    padding-top: 30px;}
+    .ab_p1 {
+    padding: 10px 0 15px;
+    }
+    .ab_btn {
+    margin-top: 30px;}
+
+    /*recent_work*/
+
+    .work_img {
+        padding: 20px 75px;}
+    /*chose nipro start*/
+    .ch_item {
+        margin: 0 60px;
+        }
+/*employs start*/
+    .em_p {
+            padding-left: 30px;
+            padding-bottom: 5px;
+            font-size: 16px;}
+            .em_img {
+                margin: 10px 0;
+            }
+
+/*priceing section start*/
+.pr_item {
+    margin:15px;;}
+    .pr_btn {
+        margin: 15px 1px;}
+    
+        /*scrol button */
+        .contan {
+            text-align: center;}
+            .scrol_btn {
+                text-align: center;}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    /*nave start*/
+    .memu ul li a {
+        padding: 0 !important;
+        float: right;
+}
+    .btn_src {
+        padding: 0 !important;
+        float: right;
+}
+/*services start*/
+.s_item {
+    margin: 100px 0 120px;
+}
+.srv_item {
+    margin: 70px 20px 0px 20px;
+}
+    /*about start*/
+.about {
+    margin-top: 70px;
+    }
+.ab_h1 {
+    padding-top: 30px;}
+.ab_p1 {
+    padding: 10px 0 15px;
+}
+.ab_btn {
+    margin-top: 30px;}
+
+/*chose nipro start*/
+.ch_item {
+    padding: 15px 0;
+    }
+.cn_p {
+    padding: 21px 0px 16px 0px;
+    }
+
+/*employs start*/
+
+.em_h2 {
+    margin-top: 5px;
+    padding-left: 0px;
+    font-size: 16px;
+    }
+
+.em_p {
+    padding-left: 0px;
+    padding-bottom: 8px;
+    line-height: 10px;
+    }
+    .em_hover{
+        top: 0%;}
+
+    /*priceing section start*/
+    .pr_item {
+        margin:15px 30px;;}
+        .pr_btn {
+            margin: 15px 34px;}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /*slaider start*/
+    .s_item {
+        margin: 100px 0 120px;
+    }
+    .s_h1 {
+        font-size: 50px;
+    }
+    /*about start*/
+    .ab_p1 {
+        padding: 0px 0 15px;
+        line-height: 23px;
+    }
+    .ab_p2 {
+        line-height: 23px;
+    }
+    .ab_btn {
+        margin-top: 15px;}
+/*priceing section start*/
+        .pr_item {
+            margin:0;}
+            .pr_btn {
+                margin: 15px 7px;}
+
+    }
+/* extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /*slaider start*/
+    .s_item {
+        margin: 100px 0 120px;
+    }
+    .s_h1 {
+        font-size: 50px;
+    }
+    
+    .ab_p1 {
+        line-height: 23px;
+    }
+    .ab_p2 {
+        line-height: 23px;
+    }
+
+    /*recent work*/
+    .nav_tab ul li {
+        padding: 0px 4px;
+    }
+
+    /*priceing section start*/
+    .pr_btn {
+        margin: 28px 10px;}
+
+
+
+}
+/* Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+    .s_p {
+        margin-right: 120px !important;}
+}
